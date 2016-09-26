@@ -1,4 +1,8 @@
 
+*{
+	position: relative;
+}
+
 body {
 	background-color: white;
 }
@@ -6,72 +10,60 @@ body {
 h1 {
 	color: black;
 	font-family: Verdana;
-	font-size: 40px;
+	font-size: 500%;
 	font-weight: bold;
 	text-align: center;
 	
 }
 
 #header {
-	width: 1500px;
-	height: 50px;
+	width: 75%;
+	height: 5%;
 	background-color: #E5E4E2;
 	margin: auto;
 	border-radius: 10px;
 	margin-bottom: 5px;
-	
 }
 
 #main {
 	background-color: #E5E4E2;
-	width: 1500px;
-	height: 2000px;
+	width: 75%;
+	height: 1000px;
 	margin: auto;
 	border-radius: 10px;
-	
-	
 }
+
 #NavBar {
-	position: fixed;
-	float: left;
-	font-size: 20px;
+	font-size: 210%;
 	font-weight: bold;
 	font-family: Verdana;
-	margin-top: -30px;
-	margin-left: -25px;
 	
 }
 
 ul {
-	position: relative;
 	list-style-type: none;
-	margin-top: 80px;
 	text-align: center;
 }
 
 li {
-	display: block;
+	display: inline;
 	border: 2px solid black;
 	color: black;
-	background-color: #E5E4E2;
+	background-color: white;
 	border-radius: 5px 5px;
-	width: 150px;
-	padding: 10px;
-	margin-top: 5px;
+	width: 15%;
+	padding: 0.5%;
+	
 	
 }
 
-
-
-a.special:hover {
+a:hover {
 	text-decoration: none;
 	color: #1FC2DB;
 }
 
-a.special:link {
+a:link {
 	text-decoration: none;
 	color: black;
 }
 	
-	
-
